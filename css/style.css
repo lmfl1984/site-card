@@ -1,0 +1,337 @@
+/* table of contents */
+/* 
+ -- header + navbar 
+ -- About me
+ -- Skills
+ -- table
+ -- mail me
+ -- folowme
+ -- footer
+*/
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+	font-family: 'Handlee', cursive, sans-serif;
+	font-size: 13px;
+	background: #F0F0F0;
+}
+
+h3 {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+/* header + navbar */
+
+.header {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	height: 20vw;
+	background: url('../img/bg1.png') 50%/cover;
+
+}
+.head {
+	text-align: center;
+	font-size: 20px;
+}
+.head img {
+	display: block;
+	width: 9vw;
+	height: 9vw;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: 5vw auto 1vw auto;
+}
+
+.navbar {
+ 	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background: #fff;
+}
+
+.navbar ul {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.navbar__li {
+	display: inline;
+	border: 3px dotted #00FFFF;
+	border-radius: 5px;
+	margin: 10px 20px 10px 20px;
+	padding: 5px;
+	font-size: 20px;
+
+}
+
+.navbar__li a:visited {
+	color: #99CC99; 	
+}
+
+.navbar__li a {
+	color: #00FFFF; 	
+}
+
+.navbar__li a:hover {
+	color: #0000FF; 	
+}
+
+.navbar__li a:active {
+	color: #FFFF00; 	
+}
+
+/* About me */
+
+.AboutMe {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 2vw;
+	background: #fff;
+}
+
+.AboutMe h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.AboutMe h2 span{
+	color: #00FFFF;
+	border: 3px dotted #00FFFF;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.AboutMe p {
+	font-size: 18px;
+}
+
+.AboutMe__ul{
+	font-size: 18px;
+}
+
+.AboutMe__ul li {
+	margin: 10px 0px 10px 0px;
+}
+
+/* Skills */
+
+.Skills {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 2vw;
+	background: #fff;
+}
+
+.Skills h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.Skills h2 span{
+	color: #00FFFF;
+	border: 3px dotted #00FFFF;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.Skills__block {
+	text-align: center;
+	widows: 100%;
+	margin: 40px 0 20px 0;
+}
+
+.skills__ul {
+	display: inline-block;
+}
+
+.skills__li {
+	list-style-type: disc;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.Skills p {
+	font-size: 18px;
+}
+
+/* About me */
+
+.table {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 2vw;
+	background: #fff;
+}
+
+.table h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.table h2 span{
+	color: #00FFFF;
+	border: 3px dotted #00FFFF;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.table__capt {
+	margin: 10px;
+}
+
+.table table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    width: 500px;
+	margin: auto;
+}
+
+.busy {
+	background: #DCDCDC;
+}
+
+/* mail me */
+
+.mailme {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 2vw;
+	text-align: center;
+	background: #fff;
+}
+
+.mailme h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.mailme h2 span{
+	color: #00FFFF;
+	border: 3px dotted #00FFFF;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.mailme__form input {
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.mailme__form input:focus {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5) 
+}
+
+#message {
+	margin-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 5px;
+}
+
+#message:focus {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5) 
+}
+
+#mailme__sub {
+	background: #00FFFF;
+	color: #FFFFFF;
+}
+
+/* folowme */
+
+.folowme {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 2vw;
+	text-align: center;
+	background: #fff;
+}
+
+.folowme h2 span{
+	color: #00FFFF;
+	border: 3px dotted #00FFFF;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+ul.folowme__menu {
+	margin: 4vw 0 3vw 0;
+  }
+
+.folowme__menu li{
+	display: inline-block;
+	margin: 2vw;
+
+  }
+
+.folowme__menu li i{
+	border: 1px solid black;
+	border-radius: 40%;
+	padding: 1vw;
+	color: black; 
+}
+
+.folowme__menu li i:hover {
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 1vw;
+	color: #0000FF;
+}
+
+/* footer */
+
+footer {
+	text-align: right;
+}

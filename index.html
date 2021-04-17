@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/Handlee-Regular.ttf">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Site-Card</title>
+  </head>
+
+<!-- table of contents 
+  --header + navbar
+  --About me
+  --Skills
+  --Table
+  --mail me
+  --folowme
+  --footer
+-->
+
+  <body>
+
+<!-- header + navbar -->
+
+    <header class="header">
+      <div class="head">
+        <img src="img/myfoto.jpg" alt="my foto">
+        <h1>Латкин Михаил - Frontend разработка / <br> верстка сайта</h1>
+      </div>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li class="navbar__li"><a href="#AboutMe">Обо мне</a></li>
+        <li class="navbar__li"><a href="#Skills">Мои умения</a></li>
+        <li class="navbar__li"><a href="#table">Календарь</a></li>
+        <li class="navbar__li"><a href="#mailme">Напиши мне</a></li>
+        <li class="navbar__li"><a href="#folowme">Подпишись на меня</a></li>
+      </ul>
+    </nav>
+
+<!-- About me -->
+
+<main class="AboutMe" id="AboutMe">
+  <h2><span>Обо мне</span ></h2>
+  <h3>Удобные сайты. Гарантия, качественно и в срок.</h3>
+  <p>Добрый день. Я недавно во фрилансе, поэтому для меня очень важно что бы клиент остался довольным!</p> <br><br>
+  <p>Предлагая вам работать со мной, я в первую очередь, буду стараться что бы вы экономили:</p>
+  <ul class="AboutMe__ul">
+    <li><b>Деньги.</b> Не завышаю расценки и делаю качественную адаптивную вёрстку, что позволяет не заказывать лишних макетов дизайна.</li>
+    <li><b>Время.</b>На написание технического задания. Уверен, в ТЗ всего не учтёшь, поэтому я не очень требователен к его изначальному варианту. Стараюсь сам прогнозировать логику работы того или иного элемента верстки заранее.</li>
+    <li><b>Нервы.</b>Просьбы пожелания и доработки уже включены в стоимость работ! Так что если вы пропустили ряд мелочей в дизайне они будут внесены в верстку по Вашей просьбе без лишних споров и дополнительных затрат! В пределах разумного, конечно. :)</li>
+  </ul>
+  <p><b>Гарантия</b> на верстку. В течение недели после передачи архива с готовой версткой я бесплатно и сразу исправляю свои ошибки которые могли быть пропущены при приеме работы и замечены позже.</p><br>
+  <p><b>Этапы работы:</b><br> Оценка, Выполнение работы, Тестирование, Оплата, передача.</p> <br> 
+  <p>Оплата осуществляется любым, удобным для вас, способом.</p><br>
+  <p>Со мной удобно работать и мне важно что бы клиент остался доволен!</p><br>
+
+  <p><b>Контакты:</b></p>
+  <ul class="contacts">
+    <li class="contacts__li">e-mail: lmfl1984@gmail.com</li>
+    <li class="contacts__li">Phone: closed</li>
+  </ul>
+
+  <br>
+  <p><b>Ответственность:</b><br>
+- готов приступить уже<br>
+- всегда довожу дело до конца<br>
+- не нарушаю сроков<br>
+- даю консультации по макету<br>
+- не беру предоплату<br>
+- всегда на связи</p><br>
+
+  <p><b>Портфолио:</b><br>
+  <a href="#">Ссылка на портфолио</a></p><br>
+
+  <p><b>Стоимость услуг:</b><br>
+    - договорная</p><br>
+
+  <p><b>Контакты:</b></p>
+  <ul class="contacts">
+    <li class="contacts__li">e-mail: lmfl1984@gmail.com</li>
+    <li class="contacts__li">Phone: closed</li>
+  </ul>
+
+
+</main>
+
+<!-- Skills -->
+
+<article class="Skills" id="Skills">
+  <h2><span>Мои умения</span></h2>
+  <div class="Skills__block">
+    <ul class="skills__ul">
+      <li class="skills__li">
+        HTML <br>
+        <progress value="80" max="100">
+      </li>
+      <li class="skills__li">
+        CSS<br>
+        <progress value="60" max="100">
+      </li>
+      <li class="skills__li">
+        JavaScript<br>
+        <progress value="10" max="100">
+      </li>
+    </ul>
+  </div>
+  <p>
+    Так же применяю смежные навыки: MySQL, PHP, CMS, Figma, адаптивная вёрстка, валидность. 
+  </p>
+</article>
+
+<!-- Table -->
+
+<article class="table" id="table">
+  <h2><span>Календарь</span ></h2>
+  
+  <table class="table__tr">
+    <caption class="table__capt">Календарь занятости на текущий месяц</caption>
+    <tr>
+      <th>Неделя</th>
+      <th>Пн</th>
+      <th>Вт</th>
+      <th>Ср</th>
+      <th>Чт</th>
+      <th>Пт</th>
+    </tr>
+    <tr>
+      <td>1я неделя</td>
+      <td colspan="2" class="busy">занято</td>
+      <td></td>
+      <td colspan="2" class="busy">занято</td>
+    </tr>
+    <tr>
+      <td>2я неделя</td>
+      <td></td>
+      <td colspan="2" class="busy">занято</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3я неделя</td>
+      <td colspan="2" class="busy">занято</td>
+      <td></td>
+      <td colspan="2" class="busy">занято</td>
+    </tr>
+    <tr>
+      <td>4я неделя</td>
+      <td></td>
+      <td colspan="2" class="busy">занято</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</article>
+
+<!-- mail me -->
+
+<article class="mailme" id="mailme">
+  <h2><span>Напишите мне</span ></h2>
+  <form method="post" class="mailme__form">
+    <input type="text" name="in_name" placeholder="Имя"><br>
+    <input type="email" name="in_e-mail" placeholder="E-mail"><br>
+    <textarea id="message" name="in_title" placeholder="Сообщение"></textarea><br>
+    <input type="submit" id="mailme__sub">
+  </form>
+</article>
+
+<!-- folowme -->
+
+<article class="folowme" id="folowme">
+  <h2><span>Подписывайтесь на меня</span ></h2>
+
+<ul class="folowme__menu">
+  <li><a href="https://vk.com/mlatkin" target="_blank"><i class="fa fa-2x fa-vk" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.instagram.com/mishalat84/" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+</ul> 
+</article>
+
+<aside>
+  
+</aside>
+
+<!-- footer -->
+
+<footer>
+  <p>Все права защищены. (с) </p>
+  <a href="#">Политика конфиденциальности.</a>
+</footer>
+
+  </body>
+</html>
